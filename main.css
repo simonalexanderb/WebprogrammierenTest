@@ -1,0 +1,131 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero-Abschnitt */
+#hero {
+    background-image: url('porsche-image.jpg'); /* Hintergrundbild ersetzen */
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+/* Stile für die Produktseite */
+#details {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+#details h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+#gallery {
+    padding: 40px;
+}
+
+#gallery h2 {
+    font-size: 28px;
+}
+
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+}
+
+#contact h2 {
+    font-size: 28px;
+}
+/* Stile für den Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 20px; /* Abstand zum rechten Rand */
+}
+
+#logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Stile für den Banner */
+#banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+#banner p {
+    font-size: 24px;
+}
+
+
+/* CSS für das Modal */
+#imageModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    text-align: center;
+}
+
+#modalImage {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
